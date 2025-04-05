@@ -1,0 +1,48 @@
+🔹 Nível Básico
+Calculadora Simples
+Operações básicas (+, -, *, /)
+Desafio extra: adicione potência e raiz quadrada.
+Conversor de Unidades
+Celsius ↔ Fahrenheit
+Quilômetros ↔ Milhas
+Bytes ↔ Kilobytes
+Jogo "Adivinhe o Número"
+O programa gera um número aleatório e o usuário tenta adivinhar.
+Dica: use rand() e srand(time(0)).
+Lista de Tarefas (Terminal)
+Adicionar, listar e remover tarefas (usando arrays).
+🔹 Nível Intermediário
+Gerenciador de Contatos
+Structs para armazenar nome, telefone e email.
+Salvar e carregar dados em um arquivo .txt (usando fopen, fprintf, fscanf).
+Jogo da Forca
+Ler palavras de um arquivo e sortear uma.
+Contar tentativas e exibir a "forca" no terminal.
+Simulaor de Caixa Eletrônico
+Operações: saldo, saque, depósito.
+Usar structs para representar contas bancárias.
+Gerador de Tabuada
+Mostrar a tabuada de um número escolhido pelo usuário.
+Desafio: salvar em um arquivo.
+🔹 Nível Avançado
+CRUD com Arquivos Binário
+Sistema para cadastrar produtos (nome, preço, quantidade).
+Usar fwrite e fread para persistência.
+Jogo da Velha (2 Players)
+Matriz 3x3, verificar vitória horizontal/vertical/diagonal.
+Desafio: criar um bot simples (aleatório).
+Mini Shell (Terminal Simplificado)
+Ler comandos como ls, mkdir (usar system() ou funções como fork() e exec()).
+Algoritmos de Ordenação Gráficos
+Implementar Bubble Sort, Quick Sort e exibir a ordenação passo a passo.
+Simulador de Sistema de Arquivos
+Criar, deletar e listar "arquivos virtuais" em memória.
+📌 Dicas para Evoluir
+Controle de Versão: Use Git e GitHub para salvar seus projetos.
+Debugging: Aprenda a usar gdb ou a depuração da IDE.
+Desafios Online: Pratique no Beecrowd ou LeetCode.
+Quer algo mais específico? Por exemplo:
+Projetos com ponteiros?
+Aplicações com structs e alocação dinâmica?
+Quer focar em algoritmos?
+É só dizer! Estou aqui para ajudar. 😊
