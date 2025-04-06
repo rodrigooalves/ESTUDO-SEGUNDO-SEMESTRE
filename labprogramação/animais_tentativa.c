@@ -2,14 +2,23 @@
 
 #include <stdio.h>
 #define TAM 3
+/* PROXIMO PASSO FUNÇÔES
 void cadastro() {
     
-}
+}*/
 
-int main () {
-
+//CRIANDO STRUCT
+typedef struct {
     int idade[TAM];
     char sexo[TAM];
+} Animal;
+
+// ADICIONAR O STRUCT NAS FUNÇÔES !!!!
+int main () {
+
+    //int idade[TAM];
+    //char sexo[TAM];
+    Animal animal;
     int i,media;
     int sair = 0;
     int opcao;
@@ -29,10 +38,10 @@ int main () {
             case 1: // CADASTRO DE IDADE/SEXO :
                 if (qtd < TAM) {
                     printf("Digite a idade do animal: \n");
-                    scanf("%d", &idade[qtd]);
+                    scanf("%d", &animal.idade[qtd]);
                     getchar();
                     printf("Digite o sexo do animal: \n");
-                    scanf("%c", &sexo[qtd]);
+                    scanf("%c", &animal.sexo[qtd]);
                     qtd++;
                     printf("Animal cadastrado com sucesso!\n\n");
                 }
@@ -44,13 +53,13 @@ int main () {
                 case 2: //RELATORIO DOS ANIMAIS COM IDADE E SEXO :
                 printf("Imprimindo todos os animais\n");
                 for( i = 0; i < qtd; i++) {
-                    printf(" %d Animal: Idade: %d , Sexo: %c\n", i+1,idade[i],sexo[i]);
+                    printf(" %d Animal: Idade: %d , Sexo: %c\n", i+1,animal.idade[i],animal.sexo[i]);
                 }   
                 break;
 
             case 3: // RELATORIO MEDIA DOS ANIMAIS :
                 for( i = 0; i < qtd; i++ ) {
-                    soma += idade[i];
+                    soma += animal.idade[i];
                 }
                 media = soma / qtd;
                 printf("Media das idades: %d\n\n", media);
@@ -60,8 +69,8 @@ int main () {
                 printf("Animais com idade acima da média:\n");
                 int found = 0;
                 for(i = 0; i < qtd; i++) {
-                    if (idade[i] > media){
-                        printf("Animal %d = Idade %d - Sexo %c\n",i+1, idade[i], sexo[i]);
+                    if (animal.idade[i] > media){
+                        printf("Animal %d = Idade %d - Sexo %c\n",i+1, animal.idade[i], animal.sexo[i]);
                         found = 1;
                     }
                 }
