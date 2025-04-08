@@ -15,9 +15,6 @@ typedef struct {
 
 // ADICIONAR O STRUCT NAS FUNÇÔES !!!!
 int main () {
-
-    //int idade[TAM];
-    //char sexo[TAM];
     Animal animal;
     int i,media;
     int sair = 0;
@@ -50,7 +47,7 @@ int main () {
                 }
                 break;
 
-                case 2: //RELATORIO DOS ANIMAIS COM IDADE E SEXO :
+            case 2: //RELATORIO DOS ANIMAIS COM IDADE E SEXO :
                 printf("Imprimindo todos os animais\n");
                 for( i = 0; i < qtd; i++) {
                     printf(" %d Animal: Idade: %d , Sexo: %c\n", i+1,animal.idade[i],animal.sexo[i]);
